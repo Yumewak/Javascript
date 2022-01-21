@@ -21,7 +21,28 @@ typeof()
 ## Javascript Variables
 ```javascript
 var myName = "Angela";
-prompt("What is your name?")
+var yourName = prompt("What is your name?")
 ```
+```
+Exercise
+```
+```javascript
+function test() {
+    var a = "3";
+    var b = "8";
+    
+/***********Do not change the code above 👆*******/
+//Write your code on lines 7 - 9:
+
+
+
+/***********Do not change the code below 👇*******/
+
+    console.log("a is " + a);
+    console.log("b is " + b);
+}
+```
+
+## Naming conventions
 ```
 ```
