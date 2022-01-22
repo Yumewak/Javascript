@@ -215,5 +215,14 @@ function calcChange(startingAmount, costPerBottle) {
 
 console.log("Hello master, here is your " + getMilk(5, 1.5) + " change:")
 ```
+```
+Every time you see this "function name() {}" we are creating a function.
+If the parenthesis contain some inputs like "function name(num1, num2) {}" this variables "num1,num2" are called parameters
+and only exist inside the function
+
+Every time you see this "name()" is called a function invocation
+And if there is nothing inside the parenthesis, then just execute the code inside the function that is being invoked
+But if the parenthesis contain some inputs like "name(2,5)" it pass this imputs to the function, this imputs are called arguments
+```
 
 ## 
