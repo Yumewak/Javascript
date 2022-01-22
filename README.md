@@ -187,11 +187,33 @@ function getMilk(bottles){
 getMilk(2);
 
 //Example
-    function getMilk(money) { 
+    function getMilk(money) {   // getMilk(money) "money" is a parameter
       var numberBottles = Math.floor(money/1.5)
       console.log("buy " + numberBottles + " Milk")
     }
-getMilk(5);
+getMilk(5); //getMilk(5) "5" is an argument
+```
+
+## Functions Outputs & Return Values
+```javascript
+//Strawberry flavor
+function getMilk(money, costPerBottle) {
+  //var numBottles = Math.floor (money / 1.5);
+  console.log("Buy " + calcBottles(money,costPerBottle) + " Bottles of Milk");
+  return calcChange(money, costPerBottle)
+}
+
+function calcBottles(startingMoney, costPerBottle) {
+  var numberOfBottles = Math.floor (startingMoney / costPerBottle);
+  return numberOfBottles;
+}
+
+function calcChange(startingAmount, costPerBottle) {
+  var change = startingAmount % costPerBottle;
+  return change;
+}
+
+console.log("Hello master, here is your " + getMilk(5, 1.5) + " change:")
 ```
 
 ## 
