@@ -143,5 +143,33 @@ var d = 6/2; //3
 var e = 9%6; //3
 
 //Code that find if a number that you have is odd or even
-//Code that convert a dog age to human age humanAge
+//Code that convert a dog age to human age, Formula: humanAge=(dogAge-2)*4+21
 ```
+
+## Increment and Decrement expressions
+```
+var x = 5;
+x = x+1; // this is the same has x++
+x++
+x--
+x+=2 // 7
+//You can also use += to increase by the value of another variable
+var x=5;
+var y=3;
+x+=y; //8
++=
+-=
+*=
+/=
+```
+
+## Functions
+```javascript
+//Create the function
+function getMilk() {}
+
+//Call the function
+Calling the function
+getMilk();
+```
+
