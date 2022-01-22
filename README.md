@@ -165,6 +165,7 @@ x+=y; //8
 
 ## Functions
 ```javascript
+//Vanilla version
 //Create the function
 function getMilk() {}
 
@@ -173,3 +174,24 @@ Calling the function
 getMilk();
 ```
 
+## Functions parameters and arguments
+```javascript
+//Chocolate flavor
+//Creating the function
+function getMilk(bottles){
+  var cost= bottles*1.5;
+  //Do something with cost
+}
+
+//Calling the function
+getMilk(2);
+
+//Example
+    function getMilk(money) { 
+      var numberBottles = Math.floor(money/1.5)
+      console.log("buy " + numberBottles + " Milk")
+    }
+getMilk(5);
+```
+
+## 
