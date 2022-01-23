@@ -225,4 +225,22 @@ And if there is nothing inside the parenthesis, then just execute the code insid
 But if the parenthesis contain some inputs like "name(2,5)" it pass this imputs to the function, this imputs are called arguments
 ```
 
-## 
+## Random Number Generator
+```javascript
+var n = Math.random(); // Example of a number with 16 decimal places generated: 0.3653767653458296
+Math.random() generates a number between 0 - 0.9999999999999999 it never reaches 1
+```
+```javascript
+//Dice generator
+var n = Math.random();
+n = n*6;
+n = Math.floor(n+1);
+```
+```javascript
+//Love calculator
+prompt("Whats the first name?")
+prompt("Whats the second name?")
+
+var loveScore = Math.floor(Math.random()*101)
+alert(loveScore)
+```
