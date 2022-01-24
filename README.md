@@ -244,3 +244,70 @@ prompt("Whats the second name?")
 var loveScore = Math.floor(Math.random()*101)
 alert(loveScore)
 ```
+
+## Control statements: Using If-Else Conditionals & Logic
+```javascript
+if (track === "clear) {goStraight();}
+else {turnRight();}
+
+//Love Calculator
+prompt("Whats the first name?")
+prompt("Whats the second name?")
+
+var loveScore = Math.floor(Math.random()*101)
+
+if (loveScore > 70) {
+  alert("Your love score is " + loveScore + "%" + " You love each other like Kanye loves Kanye")
+} else {
+  alert("Your love score is " + loveScore + "%")
+}
+```
+
+## Comparators and Equality
+```
+==  Is equal to //It doesn't look for data type match
+=== Is equal to //Data type also match
+!== Is not equal to
+>   Is greater than
+<   Is lesser than
+>=  Is greater or equal to 
+<=  Is lesser or equal to 
+```
+```javascript
+var a = 1;
+var b = "1";
+console.log(typeof(a));
+console.log(typeof(b));
+if (a === b) {
+  console.log("yes")
+} else {
+  console.log("no")
+}
+```
+
+## Combining comparators
+```
+&& AND
+|| OR  //alt+124
+!  NOT
+```
+```
+prompt("Whats the first name?")
+prompt("Whats the second name?")
+
+var loveScore = Math.floor(Math.random()*101)
+
+if (loveScore > 70) {
+  alert("Your love score is " + loveScore + "%" + " You love each other like Kanye loves Kanye")
+} 
+
+if(loveScore > 30 && loveScore <= 70) {
+  alert("Your love score is " + loveScore + "%")
+}
+
+if (loveScore <=30) {
+  alert("Your love score is " + loveScore + "%" + " You go together like oil and water.")
+}
+```
+
+## 
