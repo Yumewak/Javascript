@@ -291,7 +291,7 @@ if (a === b) {
 || OR  //alt+124
 !  NOT
 ```
-```
+```javascript
 prompt("Whats the first name?")
 prompt("Whats the second name?")
 
