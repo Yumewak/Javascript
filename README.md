@@ -310,4 +310,55 @@ if (loveScore <=30) {
 }
 ```
 
-## 
+## Nested if-else
+```javascript
+//Leap Year Challenge
+function isLeap(year) {
+    
+/**************Don't change the code above****************/    
+    
+    //Write your code here.    
+if ((year / 4) % 1 === 0){
+    if ((year / 100) % 1 === 0){
+        if ((year / 400) % 1 === 0){
+            return "Leap year."
+        }else{
+            return "Not leap year."
+        }
+    }else{
+        return "Leap year."
+    }
+}else{
+    return "Not leap year."
+}
+/**************Don't change the code below****************/    
+
+}
+```
+
+## Collections: Working with Javascripts Arrays
+```javascript
+var eggs = [1,2,3,4,5]
+var myEgg = eggs[1] // This will select the number 2 of the eggs array
+eggs.length; // This counts the eggs inside the eggs array
+eggs.includes(4)//This is to find out if an array includes a particular item
+```
+```javascript
+var guestList = ["Angela", "Jack", "Pam", "James", "Lara", "Jason"];
+var guestName = prompt("What is your name?")
+if (guestList.includes(guestName)) {
+  alert("Welcome")
+} else {
+  alert("Sorry maybe next time")
+}
+```
+
+## Adding Elements and Intermediate Array Techniques
+```
+Write a program that prints the numbers from 1 to 100. But for multiples of three
+print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers
+wich are multiples of both three and five print "FizzBuzz"
+```
+```
+
+```
