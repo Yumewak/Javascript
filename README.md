@@ -407,3 +407,22 @@ function fizzBuzz(){
 
 fizzBuzz()
 ```
+
+## Whos buying lunch?
+```javascript
+function whosPaying(names) {
+    
+/******Don't change the code above*******/
+    
+    //Write your code here.
+    var guest =["Angela","Ben", "Jenny", "Michael", "Chloe"]
+    var random =Math.floor( Math.random()*guest.length)
+    var payer=guest[random]
+    return payer + " is going to buy lunch today!"
+
+
+/******Don't change the code below*******/    
+}
+
+console.log(whosPaying("Angela","Ben", "Jenny", "Michael", "Chloe"))
+```
