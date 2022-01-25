@@ -360,5 +360,50 @@ print "Fizz" instead of the number and for the multiples of five print "Buzz". F
 wich are multiples of both three and five print "FizzBuzz"
 ```
 ```
+eggs.pus()
+eggs.pop
+```
+```javascript
+//Fizz Buzz 1
+var output = []
+var count = 1
 
+function fizzBuzz() {
+  //Write code here.
+  if (count % 3 === 0 && count % 5 ===0){
+    output.push("fizz-buzz")
+  }
+  else if (count % 3 === 0){
+    output.push("fizz")
+  }
+  else if (count % 5 === 0){
+    output.push("buzz")
+  }
+  else {
+    output.push(count)
+  }
+  count++
+  
+  console.log(output)
+}
+//Fizz Buzz 2
+var output = []
+var count = 1
+function fizzBuzz(){
+  output.push(count)
+  if (count%3 === 0){
+    output.pop()
+    output.push("fizz")
+  }else if (count%5 === 0){
+    output.pop()
+    output.push("buzz")
+  }else if (count%3===0 && count%5===0){
+    output.pop()
+    output.push("fizz-buzz")
+  }
+  console.log(output)
+  count++
+}
+
+fizzBuzz()
 ```
