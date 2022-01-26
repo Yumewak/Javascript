@@ -389,18 +389,19 @@ function fizzBuzz() {
 //Fizz Buzz 2
 var output = []
 var count = 1
-function fizzBuzz(){
-  output.push(count)
-  if (count%3 === 0){
-    output.pop()
+
+function fizzBuzz() {
+  
+  if (count%3===0 && count%5===0) {
+    output.push("FizzBuzz")
+  } else if (count%3 === 0) {
     output.push("fizz")
-  }else if (count%5 === 0){
-    output.pop()
+  } else if (count%5 === 0) {
     output.push("buzz")
-  }else if (count%3===0 && count%5===0){
-    output.pop()
-    output.push("fizz-buzz")
+  } else {
+    output.push(count)
   }
+  
   console.log(output)
   count++
 }
