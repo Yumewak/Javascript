@@ -465,3 +465,26 @@ function fizzBuzz() {
 
 fizzBuzz()
 ```
+```javascript
+    var numberOfBottles = 99
+    while (numberOfBottles >= 0) {
+        var bottleWord = "bottles";
+        if (numberOfBottles <= 1) {
+            bottleWord = "bottle";
+        } 
+        console.log(numberOfBottles + " " + bottleWord + " of beer on the wall");
+        console.log(numberOfBottles + " " + bottleWord + " of beer,");
+        console.log("Take one down, pass it around,");
+    	numberOfBottles--;
+        console.log(numberOfBottles + " " + bottleWord + " of beer on the wall.");
+    }
+    
+//-------------------------------------------------------------------------------------------------------
+var bottles = 5
+while (bottles > 1) {
+  console.log(bottles + " bottles of beer on the wall, " + bottles + " bottles of beer. Take one down and pass it around, " + (bottles-1) + "bottles of beer on the wall")
+  bottles--
+}
+console.log("1 bottle of beer on the wall, 1 bottle of beer. Take one down and pass it around, no more bottles of beer on the wall")
+console.log("No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall")
+```
