@@ -427,3 +427,41 @@ function whosPaying(names) {
 
 console.log(whosPaying(["Angela","Ben", "Jenny", "Michael", "Chloe"])) //Don't forget the [] while calling the function with an array argument
 ```
+
+## Control statements: While loops
+```javascript
+while (something is true) {
+  //Do something
+}
+```
+```javascript
+var i = 1;          //i=1
+
+while (1<2) {
+  console.log(i);   //1
+  i++;              //i=2
+}
+```
+```javascript
+var output = []
+var count = 1
+
+function fizzBuzz() {
+  while (count <= 100) {
+  if (count%3===0 && count%5===0) {
+    output.push("FizzBuzz")
+  } else if (count%3 === 0) {
+    output.push("fizz")
+  } else if (count%5 === 0) {
+    output.push("buzz")
+  } else {
+    output.push(count)
+  }
+  
+  console.log(output)
+  count++ // Remember always put a way of ending the program, otherway it will crash becaus an infinite loop
+}
+}
+
+fizzBuzz()
+```
