@@ -415,14 +415,14 @@ function whosPaying(names) {
 /******Don't change the code above*******/
     
     //Write your code here.
-    var guest =["Angela","Ben", "Jenny", "Michael", "Chloe"]
-    var random =Math.floor( Math.random()*guest.length)
-    var payer=guest[random]
+    var guest = names.length
+    var random =Math.floor( Math.random()*guest)
+    var payer=names[random]
     return payer + " is going to buy lunch today!"
 
 
 /******Don't change the code below*******/    
 }
 
-console.log(whosPaying("Angela","Ben", "Jenny", "Michael", "Chloe"))
+console.log(whosPaying(["Angela","Ben", "Jenny", "Michael", "Chloe"])) //Don't forget the [] while calling the function with an array argument
 ```
