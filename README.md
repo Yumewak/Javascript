@@ -488,3 +488,25 @@ while (bottles > 1) {
 console.log("1 bottle of beer on the wall, 1 bottle of beer. Take one down and pass it around, no more bottles of beer on the wall")
 console.log("No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall")
 ```
+
+## Control statements: For loops
+```javascript
+for (i=0; 1<2; i++) {
+//Do something
+}
+```
+```javascript
+Difference between While and For
+//While loop: checking for a state, so it's while something is true
+var i = 1;
+while(i<2){
+  console.log(i);
+  i++;
+}
+-------------------------------------
+//For loop: Trying to iterate, run a piece of code many times
+for (i=1; i<2; i++) {
+  console.log(i);
+}
+
+```
