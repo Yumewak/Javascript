@@ -247,7 +247,7 @@ alert(loveScore)
 
 ## Control statements: Using If-Else Conditionals & Logic
 ```javascript
-if (track === "clear) {goStraight();}
+if (track === "clear") {goStraight();}
 else {turnRight();}
 
 //Love Calculator
