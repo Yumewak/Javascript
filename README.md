@@ -42,6 +42,13 @@ function test() {
     console.log("b is " + b);
 }
 ```
+```javascript
+const a = 2; // You cant change the value like a = 5;
+a = 5; //This is not valid
+// Use it when you're creating container that are not going to be changed or meddled with later
+
+const pi = 3.141592
+```
 
 ## Naming conventions
 ```
